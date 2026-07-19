@@ -1,0 +1,40 @@
+.header {
+  height: 50px;
+  background: hsl(345, 67%, 26%);
+}
+
+.main-wrapper {
+  padding: 0 75px;
+}
+.main__title {
+  font-size: 70;
+  font-weight: normal;
+}
+.main__input-title {
+  width: 100%;
+}
+.main__description {
+  font-size: 40px;
+
+}
+.main__input-description {
+  width: 100%;
+}
+.main__button-add-new-note {
+}
+.nav {
+}
+.nav__button-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+.nav__img-profile {
+  object-fit: cover;  
+  object-position: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}

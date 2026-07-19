@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="static/main_app/css/index.css">
+{% endblock %}
+{% block title %} Notes {% endblock %}
+
+{% block body %}
+<header class="header">
+  
+</header>
+<main class="main-wrapper">
+  <p class="main__title">Title</p>
+  <input class="main__input-title" type="text" placeholder="title">
+  <p class="main__description">Description</p>
+  <input class="main__input-description" type="text" placeholder="description">
+  <button class="main__button-add-new-note">Add new notes</button>
+</main>
+<nav class="nav">
+  <button class="nav__button-profile">
+    <img src="static\main_app\image\image.png" alt="" class="nav__img-profile">
+  </button>
+  <ul>
+    <li><a href="">Settings</a></li>
+    <li><a href="">Folders</a></li>
+    <li><a href="">Anybutton</a></li>
+  </ul>
+</nav>
+{% endblock %}
