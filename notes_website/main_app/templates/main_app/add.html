@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="static/css/normalize.css">
+<link rel="stylesheet" href="static/main_app/css/index.css">
+{% endblock %}
+{% block title %} Notes {% endblock %}
+
+{% block body %}
+<header class="header">
+  
+</header>
+<div class="nav-main-wrapper">
+  <main class="main-wrapper">
+    <p class="main__title">Title</p>
+    <input class="main__input-title" type="text" placeholder="title">
+    <p class="main__description">Description</p>
+    <input class="main__input-description" type="text" placeholder="description">
+    <button class="main__button-add-new-note">Add new notes</button>
+  </main>
+</div>
+{% endblock %}

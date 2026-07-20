@@ -1,32 +1,76 @@
+  @font-face {
+    font-family: 'Antipasto'; 
+    src: url('fonts\Antipasto-Pro-Regular-trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+  /* font-family: Antipasto; */
+}
+
 .header {
   height: 50px;
-  background: hsl(345, 67%, 26%);
+  background: hsl(51, 100%, 39%);
 }
 
-.main-wrapper {
-  padding: 0 75px;
+.nav-main-wrapper {
+  padding: 30px 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* -------------------------------------------------------------------------------------------- */
+.main__task {
+  display: flex;
+  flex-direction: column;
+}
+.main-button-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.task_inner {
+  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+.main__button-done {
+  margin-right: 4vw;
+  min-width: 28px;
+  min-height: 28px;
+  border: 1px solid #161616;
+  border-radius: 7px;
+  background: #f3f3f2;
+}
+.main__text-wrapper {
+  padding: 15px;
+  border-radius: 10px;
+  background: #faf8e2;
 }
 .main__title {
-  font-size: 70;
-  font-weight: normal;
+  font-size: 33px;
+  max-width: 60vw;
 }
-.main__input-title {
+.main_description {
+  max-width: 65vw;
+  font-size: 20px;
+}
+.button-add {
+  margin-bottom: 5px;
+  background: #ffeac4;
+  border-radius: 5px;
   width: 100%;
+  height: 40px;
 }
-.main__description {
-  font-size: 40px;
-
-}
-.main__input-description {
-  width: 100%;
-}
-.main__button-add-new-note {
-}
+/* -------------------------------------------------------------------------------------------- */
 .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: #b43131; */
 }
 .nav__button-profile {
-  width: 50px;
-  height: 50px;
+  width: 95px;
+  height: 95px;
   border-radius: 50%;
   overflow: hidden;
   display: inline-block;
@@ -37,4 +81,15 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+
+.nav__nikname {
+  font-size: 20px;
+  color: #696868;
+  align-self: center;
+  margin: 0 0 10px;
+}
+.nav__a {
+  font-size: 27px;
+  align-self: center;
 }
