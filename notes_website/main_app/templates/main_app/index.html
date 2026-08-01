@@ -15,127 +15,18 @@
   <div class="main-button-wrapper">
     <main class="main">
       <div class="main__task">
-        <div class="task_inner">
+        {% for note in notes %}
+          <div class="task_inner">
           <button class="main__button-done">
-            X
           </button>
           <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit perspiciatis hic
-              eius necessitatibus rem ut architecto praesentium ipsa, at qui.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit perspiciatis hic
-              eius necessitatibus rem ut architecto praesentium ipsa, at qui.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit perspiciatis hic
-              eius necessitatibus rem ut architecto praesentium ipsa, at qui.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
+            <h2 class="main__title">{{ note.title }}</h2>
             <p class="main_description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, placeat iste dolorum, explicabo est eos
-              accusamus iure libero assumenda consequuntur harum, veniam nihil atque accusantium repudiandae sit
-              voluptatum maiores sint? Molestiae, totam earum explicabo dolor, et maxime blanditiis aliquid odio ipsum
-              alias asperiores voluptatibus error numquam nam ut veritatis inventore. Nobis facere neque molestias fuga
-              sit accusantium, deleniti voluptates labore error. Quam ipsa facilis eaque voluptate, accusamus earum rem ad
-              esse eveniet fuga non tenetur vitae quis tempora voluptatum. Harum laboriosam eos quia cumque impedit
-              perferendis dolore voluptate tempora nobis itaque quidem beatae quisquam rerum, ad alias quam eligendi id.
+              {{ note.describe }}
             </p>
           </div>
         </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, placeat iste dolorum, explicabo est eos
-              accusamus iure libero assumenda consequuntur harum, veniam nihil atque accusantium repudiandae sit
-              voluptatum maiores sint? Molestiae, totam earum explicabo dolor, et maxime blanditiis aliquid odio ipsum
-              alias asperiores voluptatibus error numquam nam ut veritatis inventore. Nobis facere neque molestias fuga
-              sit accusantium, deleniti voluptates labore error. Quam ipsa facilis eaque voluptate, accusamus earum rem ad
-              esse eveniet fuga non tenetur vitae quis tempora voluptatum. Harum laboriosam eos quia cumque impedit
-              perferendis dolore voluptate tempora nobis itaque quidem beatae quisquam rerum, ad alias quam eligendi id.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, placeat iste dolorum, explicabo est eos
-              accusamus iure libero assumenda consequuntur harum, veniam nihil atque accusantium repudiandae sit
-              voluptatum maiores sint? Molestiae, totam earum explicabo dolor, et maxime blanditiis aliquid odio ipsum
-              alias asperiores voluptatibus error numquam nam ut veritatis inventore. Nobis facere neque molestias fuga
-              sit accusantium, deleniti voluptates labore error. Quam ipsa facilis eaque voluptate, accusamus earum rem ad
-              esse eveniet fuga non tenetur vitae quis tempora voluptatum. Harum laboriosam eos quia cumque impedit
-              perferendis dolore voluptate tempora nobis itaque quidem beatae quisquam rerum, ad alias quam eligendi id.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            X
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, placeat iste dolorum, explicabo est eos
-              accusamus iure libero assumenda consequuntur harum, veniam nihil atque accusantium repudiandae sit
-              voluptatum maiores sint? Molestiae, totam earum explicabo dolor, et maxime blanditiis aliquid odio ipsum
-              alias asperiores voluptatibus error numquam nam ut veritatis inventore. Nobis facere neque molestias fuga
-              sit accusantium, deleniti voluptates labore error. Quam ipsa facilis eaque voluptate, accusamus earum rem ad
-              esse eveniet fuga non tenetur vitae quis tempora voluptatum. Harum laboriosam eos quia cumque impedit
-              perferendis dolore voluptate tempora nobis itaque quidem beatae quisquam rerum, ad alias quam eligendi id.
-            </p>
-          </div>
-        </div>
-        <div class="task_inner">
-          <button class="main__button-done">
-            
-          </button>
-          <div class="main__text-wrapper">
-            <h2 class="main__title">Lorem, ipsum dolor.</h2>
-            <p class="main_description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, placeat iste dolorum, explicabo est eos
-              accusamus iure libero assumenda consequuntur harum, veniam nihil atque accusantium repudiandae sit
-              voluptatum maiores sint? Molestiae, totam earum explicabo dolor, et maxime blanditiis aliquid odio ipsum
-              alias asperiores voluptatibus error numquam nam ut veritatis inventore. Nobis facere neque molestias fuga
-              sit accusantium, deleniti voluptates labore error. Quam ipsa facilis eaque voluptate, accusamus earum rem ad
-              esse eveniet fuga non tenetur vitae quis tempora voluptatum. Harum laboriosam eos quia cumque impedit
-              perferendis dolore voluptate tempora nobis itaque quidem beatae quisquam rerum, ad alias quam eligendi id.
-            </p>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </main>
     <a href="{% url 'add' %}" class="button-add">ADD NEW TASK</a>
